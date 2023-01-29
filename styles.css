@@ -3,3 +3,31 @@
     max-width: 150px;
     height: auto;
   }
+
+
+  @media only screen and (max-width: 578px) {
+    * {
+    text-align:center;
+    font-size: 0.9em;
+
+    }
+    h1, h2, h3, h4, h5, h6 {
+    font-size: 2em;
+
+}
+  }
+
+
+  .pink-bg {
+    background-color: #c271ff;
+    color: #c271ff;
+  }
+  
+  .pink-text {
+    color: #c271ff;
+
+  }
+
+  .pink-border {
+    border-color: #c271ff;
+  }
