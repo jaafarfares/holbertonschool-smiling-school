@@ -1,1 +1,5 @@
-
+.profile-img {
+    width: 70%;
+    max-width: 150px;
+    height: auto;
+  }
