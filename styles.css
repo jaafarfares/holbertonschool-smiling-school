@@ -57,3 +57,27 @@
   .carousel-section {
     height: 200px !important;  }
 
+    .cards-wrapper {
+        display: flex;
+        justify-content: center;
+      }
+      .card img {
+        max-width: 2550px;
+        max-height: 154px;
+      }
+
+      .card {
+        width: 275px;
+      }
+
+
+      .ph-avatar{
+        max-width: 30px imo !important;
+        max-height: 30px !important;
+      }
+
+
+      .play-btn {
+        margin: -110px 0 40px 97px;
+
+      }
