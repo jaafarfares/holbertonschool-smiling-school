@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+            href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap"
+            rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Coiny&display=swap"
+            rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <link rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        <title>Carousel-of-quotes</title>
+    </head>
+    <body>
+        <!-- hero section-->
+        <header class="bg-dark bg-transparent ">
+            <div class="bg-image w-100 d-block text-center"
+                style=" background-image: url('images/images/pic_3.jpg');
+                min-height: 300px;
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: cover;
+                width: 100%;
+                height: 20px !important;
+                padding-bottom: 9%;
+                margin-top: 0px;">
+                <nav class="navbar navbar-dark navbar-expand-md">
+                    <div class="container">
+                        <button class="navbar-toggler border-0" type="button"
+                            data-toggle="collapse" data-target="#mainmenu"
+                            aria-controls="mainmenu" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <a class="navbar-brand ml-2 align-items-md-center">
+                            <img src="images/images/smile_off.png" width="55"
+                                height="50" alt="Smile" loading="lazy"
+                                class="rounded">
+                            <img src="images/images/logo.png" width="333"
+                                height="70" loading="lazy" class="rounded">
+                        </a>
+                        <div class="collapse navbar-collapse" id="mainmenu">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link text-white"
+                                        href="courses.html">Courses</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white"
+                                        href="pricing.html">Pricing</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white"
+                                        href="#login">Login</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <div class="my-headear display-1 text-white d-flex flex-column align-items-center">
+                    <h2 class="d-none d-md-flex mx-auto mt-5">« Don’t cry because it’s over.</h2>
+                    <h2 class="d-none d-md-flex mx-auto mb-0 pb-0"><span class="pink-text">Smile</span>&nbsp;because it happened. »</h2>
+                </div>
+
+
+            </div>
+        <!-- search section -->
+        <section class="search-bar pink-bg text-white">
+            <form class="container">
+                <div class="form-row">
+                    <div class="d-flex flex-column form-group col-lg-4 col-md-12 mt-3 pb-2">
+                        <h6 class="font-weight-bold">KEYWORD</h6>
+                        <input class="form-control border-0" type="search" id="searchInput" placeholder="Search by keywords">
+                    </div>
+                    <div class="d-flex flex-column form-group col-lg-4 col-md-6 mt-3">
+                        <h6 class="font-weight-bold">TOPIC</h6>
+                        <select class="form-control border-0" id="topicMenu">
+							<option class="bg-white text-body">Novice</option>
+							<option class="bg-white text-body">Intermediate</option>
+							<option class="bg-white text-body">Expert</option>
+						</select>
+                    </div>
+                    <div class="d-flex flex-column form-group col-lg-4 col-md-6 mt-3">
+                        <h6 class="font-weight-bold">SORT BY</h6>
+                        <select class="form-control border-0" id="topicMenu">
+							<option class="bg-white text-body">Most Popular</option>
+							<option class="bg-white text-body">Most Recent</option>
+							<option class="bg-white text-body">Most Viewed</option>
+						</select>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </header>
+
+        </body>
+
+    </html>
