@@ -1,11 +1,17 @@
+
+
+
 .profile-img {
-    width: 70%;
-    max-width: 150px;
-    height: auto;
-  }
+  width: 70%;
+  max-width: 150px;
+  height: auto;
+}
+@media only screen and (max-width: 578px){
+  * {text-align: center;}
 
+}
 
-  @media (max-width: 576px) {
+  @media only screen and (max-width: 578px){
     * {
     text-align:center;
     font-size: 0.9em;
@@ -27,16 +33,6 @@
       }
   
   }
-
-  @media (min-width: 577px) {
-    .align-items-center {
-      align-items: center !important;
-    }
-  }
-
-
-
-
 
   .pink-bg {
     background-color: #c271ff;
@@ -62,17 +58,17 @@
         justify-content: center;
       }
       .card img {
-        max-width: 2550px;
+        max-width: 300px;
         max-height: 154px;
       }
 
       .card {
-        width: 275px;
+        width: 290px;
       }
 
 
       .ph-avatar{
-        max-width: 30px imo !important;
+        max-width: 30px !important;
         max-height: 30px !important;
       }
 
@@ -81,3 +77,33 @@
         margin: -110px 0 40px 97px;
 
       }
+
+
+
+      .bg-black {
+        background-color: black;
+      }
+ 
+.my-p {
+  font-size: 12px;
+}
+
+
+.my-headear {
+
+}
+
+.form-control{
+  
+  height: 60px;
+}
+
+.my3_carousel{
+
+}
+
+
+.star-size{
+  width: 20px;
+  height: 20px;
+}
